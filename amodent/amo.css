@@ -1,0 +1,104 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand
+{
+  font-family:sans-serif;
+  font-size: bold;
+}
+.nav-item
+{
+  font-size: larger;
+  font-size: 18px;
+  
+  font-weight: bold;
+  font-family:monospace ;
+}
+
+.home
+{
+  
+  background-image: url(/images/Dentist-Invercargill-Windsor.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px;
+  padding: 100px 0 100px 0;
+
+}
+h3
+{
+  margin-top: 20px;
+ 
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 40px;
+}
+.mb-0
+{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+ padding-bottom: 120px;
+}
+
+.kok
+{
+  border:  none black;
+ background-image: linear-gradient( to right, rgba(239, 230, 230, 0), rgb(155, 152, 152) );
+  color: rgb(56, 108, 203);
+  width: 200px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 2px 5px;
+  cursor: pointer;
+  
+}
+.card:hover
+{
+ transform: scale(1.02);
+  transition: 0.7s;
+  border-top: 1px solid #f8f8f8;
+  background: #f8f8f8;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin: 10px 0px;
+  -webkit-transform: translateY(-20px);
+            -ms-transform: translateY(-20px);
+            transform: translateY(-20px);
+            box-shadow: 0 22px 43px rgba(0, 0, 0, 0.32);
+            cursor: pointer;
+            border-radius: 5px; 
+}
+
+.card
+{
+  background-color: #e8e6df;
+}
+
+.card-img-top
+{
+  margin-left: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 3px solid grey;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+
+
+/* knopka*/
+.gap-2
+{
+margin-bottom: 20px;
+margin-top: 10px;
+}
